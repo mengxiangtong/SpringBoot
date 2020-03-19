@@ -1,8 +1,8 @@
 spring:
   datasource:
     username: root
-    password: Welcome_1
-    url: jdbc:mysql://192.168.179.131:3306/mybatis01
+    password: 123456
+    url: jdbc:mysql://127.0.0.1:3306/mytest
     driver-class-name: com.mysql.jdbc.Driver
     type: com.alibaba.druid.pool.DruidDataSource
 
@@ -33,3 +33,9 @@ mybatis:
 #mybatis:
 #  configuration:
 #    map-underscore-to-camel-case: true
+pagehelper:
+  reasonable: true
+  helper-dialect: mysql
+  support-methods-arguments: true
+  params: count=countSql
+
