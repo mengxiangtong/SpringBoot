@@ -4,10 +4,8 @@ package com.wdjr.springboot.service;
 import org.springframework.stereotype.Service;
 
 @Service
-public class CourseServiceImpl implements  CourseService  {
+public class CourseServiceImpl extends CourseService {
 
-@Override
-public void addCourse(C)
 
 
 }
