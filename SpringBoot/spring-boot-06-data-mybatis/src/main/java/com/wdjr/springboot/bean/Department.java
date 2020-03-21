@@ -1,5 +1,7 @@
 package com.wdjr.springboot.bean;
 
+
+//部门
 public class Department {
     private Integer id;
     private String deptName;

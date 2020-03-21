@@ -4,7 +4,7 @@ import com.wdjr.springboot.bean.Department;
 import org.apache.ibatis.annotations.*;
 
 //指定是一个mapper
-//@Mapper
+@Mapper
 public interface DepartmentMapper {
 
     @Insert("insert into department(dept_name) value(#{deptName})")
